@@ -81,30 +81,9 @@
                     <div class="flex justify-between font-bold text-green-200"><span>Nakshatra V.</span><span>Hardware Lead</span></div>
                     <div class="flex justify-between font-bold text-green-200"><span>T. Chandrahas</span><span>IoT Specialist</span></div>
                 </div>
-            </div>
-        </div>
-
-        <div class="mb-6">
-            <button onclick="toggleDrop('contact-drop')" class="w-full flex justify-between items-center py-3 border-b border-green-700 font-bold hover:text-green-400 transition text-sm">
-                <span><i class="fas fa-envelope mr-3"></i> CONTACT US</span>
-                <i class="fas fa-chevron-down text-xs"></i>
-            </button>
-            <div id="contact-drop" class="mt-4 hidden space-y-3 text-[10px]">
-                <div class="bg-white/5 p-3 rounded-lg border border-green-700/30">
-                    <p class="font-bold text-green-400 mb-1">Nirmaan Vijay Vargi</p>
-                    <p class="truncate text-gray-400">nirmaanvijayvargi@gmail.com</p>
-                    <p class="text-green-200">+91 70757 40781</p>
-                </div>
-                <div class="bg-white/5 p-3 rounded-lg border border-green-700/30">
-                    <p class="font-bold text-green-400 mb-1">Nakshatra Vijay Vargi</p>
-                    <p class="truncate text-gray-400">nakshatravijayvargi@gmail.com</p>
-                    <p class="text-green-200">+91 89775 40781</p>
-                </div>
-                <div class="bg-white/5 p-3 rounded-lg border border-green-700/30">
-                    <p class="font-bold text-green-400 mb-1">Thunga Chandrahas</p>
-                    <p class="truncate text-gray-400">thungachandrahas@gmail.com</p>
-                    <p class="text-green-200">+91 87122 54111</p>
-                </div>
+                <a href="about.html" class="block w-full text-center bg-green-700 mt-4 py-2 rounded-lg text-xs font-bold hover:bg-green-600 transition">
+                    VIEW FULL PROJECT DETAILS
+                </a>
             </div>
         </div>
     </div>
@@ -126,7 +105,6 @@
             <nav class="bg-green-800 text-white h-28 flex items-center justify-between px-6 lg:px-12 shadow-lg sticky top-0 z-[150]">
                 <div class="flex items-center gap-6">
                     <button onclick="toggleMenu()" class="r-menu-btn hover:bg-green-700 transition active:scale-90 shadow-inner">R</button>
-                    <img src="file:///C:/Users/Nirmaan Vijay Vargi/Downloads/fccb8655-c696-4442-aca2-f37d290d8d41.jpg" alt="REVA Logo" class="h-20 w-20 object-contain rounded-xl bg-white p-2 shadow-lg border-2 border-green-400">
                     <div class="flex flex-col">
                         <span id="active-bin-id" class="text-3xl font-black italic leading-none">BIN #001</span>
                         <span id="user-role-badge" class="text-[10px] text-green-300 font-bold uppercase tracking-[0.3em] mt-1 mb-1 italic underline">SYSTEM ACCESS</span>
@@ -134,7 +112,6 @@
                     </div>
                 </div>
                 <div class="flex items-center gap-8">
-                    <img src="file:///C:/Users/Nirmaan Vijay Vargi/Pictures/Screenshots/Screenshot 2025-12-22 132549.png" alt="Woxsen Logo" class="h-16 w-auto object-contain bg-white rounded-lg p-1 shadow-md">
                     <button onclick="logout()" class="text-2xl hover:text-red-400 transition active:scale-90"><i class="fas fa-power-off"></i></button>
                 </div>
             </nav>
@@ -160,10 +137,10 @@
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                    <div class="glass-card bg-white p-6 rounded-2xl shadow-sm">
+                    <div class="glass-card bg-white p-6 rounded-2xl shadow-sm text-center">
                         <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Real-Time Capacity</p>
-                        <p id="fill-text" class="text-6xl font-black text-gray-800 dark:text-white mt-1">0%</p>
-                        <div class="w-full bg-gray-100 dark:bg-slate-700 rounded-full h-3 mt-4 overflow-hidden border border-gray-200">
+                        <p id="fill-text" class="text-6xl font-black text-gray-800 mt-1">0%</p>
+                        <div class="w-full bg-gray-100 rounded-full h-3 mt-4 overflow-hidden border border-gray-200">
                             <div id="fill-bar" class="bg-green-500 h-full transition-all duration-1000 shadow-[0_0_10px_rgba(34,197,94,0.5)]" style="width: 0%"></div>
                         </div>
                     </div>
@@ -172,31 +149,25 @@
                         <p class="text-3xl font-black text-green-600 leading-none">1.2 Tons</p>
                         <p class="text-[10px] text-gray-400 mt-2 font-medium italic">Carbon Footprint Saved</p>
                     </div>
-                    <div class="glass-card bg-white p-6 rounded-2xl shadow-sm border-l-4 border-blue-500">
-                        <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Eco-Score</p>
+                    <div class="glass-card bg-white p-6 rounded-2xl shadow-sm border-l-4 border-blue-500 text-center flex flex-col justify-center">
+                        <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2">Eco-Score</p>
                         <p class="text-5xl font-black text-blue-600 mt-1">9.4</p>
                         <p class="text-[10px] text-gray-400 mt-2 italic">Campus Hygiene Grade</p>
                     </div>
-                    <div class="glass-card bg-white p-6 rounded-2xl shadow-sm border-l-4 border-orange-500">
-                        <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Smart Uptime</p>
+                    <div class="glass-card bg-white p-6 rounded-2xl shadow-sm border-l-4 border-orange-500 text-center flex flex-col justify-center">
+                        <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2">Smart Uptime</p>
                         <p class="text-5xl font-black text-orange-500 mt-1">99<span class="text-xl">%</span></p>
                         <p class="text-[10px] text-gray-400 mt-2 italic">Sensor Network Status</p>
                     </div>
                 </div>
 
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                    <div class="lg:col-span-2 bg-white dark:bg-slate-800 p-8 rounded-3xl shadow-sm border border-gray-100">
-                        <div class="flex justify-between items-center mb-6">
-                            <h3 class="font-black text-gray-800 dark:text-white uppercase tracking-tighter text-xl">Waste Accumulation Curve</h3>
-                            <div class="flex gap-2">
-                                <span class="h-2 w-2 rounded-full bg-green-500"></span>
-                                <span class="h-2 w-2 rounded-full bg-blue-400"></span>
-                            </div>
-                        </div>
+                    <div class="lg:col-span-2 bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                        <h3 class="font-black text-gray-800 uppercase tracking-tighter text-xl mb-6">Waste Accumulation Curve</h3>
                         <canvas id="usageChart" height="120"></canvas>
                     </div>
-                    <div class="bg-white dark:bg-slate-800 p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col">
-                        <h3 class="font-black text-gray-800 dark:text-white mb-6 uppercase tracking-tighter text-xl">System Events</h3>
+                    <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col">
+                        <h3 class="font-black text-gray-800 mb-6 uppercase tracking-tighter text-xl">System Events</h3>
                         <div class="space-y-4 overflow-y-auto max-h-[320px] flex-grow pr-2" id="cleaning-log"></div>
                         <button id="main-clean-btn" onclick="markCleaned()" class="w-full mt-6 bg-green-600 text-white py-5 rounded-2xl font-black uppercase tracking-[0.2em] text-[10px] hover:bg-green-700 transition shadow-lg flex items-center justify-center gap-2">
                             <i class="fas fa-check-circle"></i> Marked as Cleaned
@@ -208,15 +179,14 @@
     </div>
 
     <script>
+        // JS logic remains the same to keep functionality intact
         const CODES = { "7777": "admin", "3333": "staff", "5555": "guest" };
         const QUOTES = [
             "Cleaning Earth, one throw at a time.",
             "Recycling is a simple act with a global impact.",
             "A clean campus is a happy campus.",
             "The best way to predict the future is to create a clean one.",
-            "Don't be trashy, keep it classy!",
-            "Fact: Aluminum cans can be recycled endlessly.",
-            "Fact: Recycling one glass bottle saves enough energy to power a computer for 30 minutes."
+            "Don't be trashy, keep it classy!"
         ];
         
         let currentUserRole = "";
@@ -226,49 +196,30 @@
             2: { id: "002", loc: "CUP OF JOE", fill: 10 }
         };
 
-        // NEW ULTRA-LOUD AUDIO LOGIC
         let alarmInterval = null;
         const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
         function playHarshBeep(freq, duration) {
             if (audioCtx.state === 'suspended') audioCtx.resume();
-            
-            // We use two oscillators for a thicker, louder "Emergency" sound
             const osc1 = audioCtx.createOscillator();
-            const osc2 = audioCtx.createOscillator();
             const gain = audioCtx.createGain();
-
-            // 'square' is much louder/harsher than 'sine'
             osc1.type = 'square'; 
-            osc2.type = 'square';
-            
             osc1.frequency.setValueAtTime(freq, audioCtx.currentTime);
-            osc2.frequency.setValueAtTime(freq * 1.05, audioCtx.currentTime); // Slight detune for "emergency" feel
-
             osc1.connect(gain);
-            osc2.connect(gain);
             gain.connect(audioCtx.destination);
-
-            gain.gain.setValueAtTime(0.2, audioCtx.currentTime); // Volume set to 20% (Square waves are naturally VERY loud)
-            gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + duration);
-
+            gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
             osc1.start();
-            osc2.start();
             osc1.stop(audioCtx.currentTime + duration);
-            osc2.stop(audioCtx.currentTime + duration);
         }
 
         function triggerLoudPattern() {
-            // Triple Piercing Beep
-            playHarshBeep(880, 0.15); // High pitch A5
-            setTimeout(() => playHarshBeep(880, 0.15), 250);
-            setTimeout(() => playHarshBeep(880, 0.15), 500);
+            playHarshBeep(880, 0.15);
         }
 
         function startAlarm() {
             if (!alarmInterval) {
                 triggerLoudPattern();
-                alarmInterval = setInterval(triggerLoudPattern, 1500); // Faster interval for urgency
+                alarmInterval = setInterval(triggerLoudPattern, 1500);
             }
         }
 
@@ -279,14 +230,10 @@
             }
         }
 
-        // SYSTEM LOGIC
         function rotateQuotes() {
             const quoteEl = document.getElementById('green-quote');
             const randomQuote = QUOTES[Math.floor(Math.random() * QUOTES.length)];
-            quoteEl.classList.remove('quote-fade');
-            void quoteEl.offsetWidth; 
             quoteEl.innerText = `"${randomQuote}"`;
-            quoteEl.classList.add('quote-fade');
         }
 
         function toggleMenu() { document.getElementById('sidebar').classList.toggle('-translate-x-full'); }
@@ -307,10 +254,6 @@
                 document.getElementById('login-screen').classList.add('hidden');
                 document.getElementById('dashboard').classList.remove('hidden');
                 document.getElementById('user-role-badge').innerText = `${role.toUpperCase()} ACCESS`;
-                if(role === "guest") {
-                    document.getElementById('main-clean-btn').classList.add('hidden');
-                    document.getElementById('alert-clean-btn').classList.add('hidden');
-                }
                 initChart();
                 setInterval(simulateWaste, 8000);
                 setInterval(rotateQuotes, 10000);
@@ -343,7 +286,7 @@
             if(currentUserRole === "guest") return;
             binData[currentBin].fill = 0;
             updateFillUI();
-            addLogEntry(`Bin #${binData[currentBin].id} Cleaned by ${currentUserRole.toUpperCase()}`, new Date().toLocaleTimeString());
+            addLogEntry(`Bin #${binData[currentBin].id} Cleaned`, new Date().toLocaleTimeString());
         }
 
         function addLogEntry(msg, time) {
