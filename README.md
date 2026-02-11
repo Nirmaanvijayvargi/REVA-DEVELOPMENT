@@ -5,6 +5,10 @@ REVA is an IoT-enabled smart waste management prototype built to explore how sof
 
 This project was developed as a demonstration / academic prototype, not a production deployment. The focus was on designing a clear system, usable dashboards, and meaningful alerts rather than shipping a finished product.
 
+<p align="center">
+  <img src="C:\Users\Nirmaan Vijay Vargi\Pictures\Screenshots\Screenshot 2025-11-18 084151.png" alt="Reva"/>
+</p>
+
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://reva-development.vercel.app/)
 [![Vercel Status](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)](https://reva-development.vercel.app/)
 
